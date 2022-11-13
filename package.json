@@ -1,0 +1,26 @@
+{
+  "name": "babel-practice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx babel src --out-dir lib",
+    "dev": "node ./start.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/junfengshow/babel-practice.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/junfengshow/babel-practice/issues"
+  },
+  "homepage": "https://github.com/junfengshow/babel-practice#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.18.10",
+    "@babel/core": "^7.18.10",
+    "@babel/preset-env": "^7.18.10"
+  }
+}
